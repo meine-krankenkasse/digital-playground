@@ -2,7 +2,7 @@
   <div>
     <UPageHero
       title="Welcome to mkk.digital Playground"
-      description="A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours."
+      description="A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes."
       :links="[
         {
           label: 'UI Library',
