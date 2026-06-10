@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "typecheck": "nuxt typecheck"
+    "type-check": "nuxt typecheck"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.111",
