@@ -9,13 +9,13 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: false }
   },
 
   compatibilityDate: '2025-01-15',
 
   basicAuth: {
-    enabled: true
+    enabled: process.env.NUXT_BASIC_AUTH_ENABLED !== 'false'
   },
 
   eslint: {
