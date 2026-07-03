@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/eslint', '@nuxt/ui', '@kgierke/nuxt-basic-auth'],
 
+  app: {
+    head: {
+      meta: [{ name: 'robots', content: 'noindex, nofollow' }]
+    }
+  },
+
   devtools: {
     enabled: true
   },
