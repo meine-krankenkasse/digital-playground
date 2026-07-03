@@ -2,6 +2,9 @@
 
 ## Installation
 
+### Prerequisites
+- Run `cp .env.example .env`, and update the `.env` file as necessary.
+
 Then run the following commands
 
 -   Run `npm install` to install the project dependencies.
