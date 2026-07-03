@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-01-15',
 
   basicAuth: {
-    enabled: process.env.NUXT_BASIC_AUTH_ENABLED !== 'false'
+    enabled: process.env.NUXT_BASIC_AUTH_ENABLED === 'true'
   },
 
   eslint: {
